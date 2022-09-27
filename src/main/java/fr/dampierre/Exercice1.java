@@ -13,7 +13,7 @@ public class Exercice1 {
         System.out.println("Il est " + heure + " h " + minutes + " min " + secondes + "s.");
         System.out.println("Il s'est écoulé " + tempsEcoule + " secondes depuis minuit.");
 
-    
+    // ajout d'un commentaire bidon
     
     }
 }
