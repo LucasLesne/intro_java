@@ -6,13 +6,17 @@ public class Exercice2 {
     
     public static void main(String[] args) {
     
-        Scanner clavier = new Scanner(System.in);
+        //ACQUISITION DES VARIABLES
+    Scanner clavier = new Scanner(System.in);
         System.out.println("Entrez l'heure :");
-        int heure = clavier.nextInt();
+    int heure = clavier.nextInt();
         System.out.println("Entrez les minutes :");
-        int minutes = clavier.nextInt();
+    int minutes = clavier.nextInt();
         System.out.println("Entrez les secondes :");
-        int secondes = clavier.nextInt();
+    int secondes = clavier.nextInt();
+    clavier.close();
+        
+        //CALCUL ET AFFICHAGE RESULTAT
         int tempsEcoule = heure*60*60 + minutes*60 + secondes;
         System.out.println("Il est " + heure + " h " + minutes + " min " + secondes + "s.");
         System.out.println("Il s'est écoulé " + tempsEcoule + " secondes depuis minuit.");
