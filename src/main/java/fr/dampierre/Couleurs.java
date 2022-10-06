@@ -19,6 +19,5 @@ public class Couleurs {
             }
             else
                 System.out.println("Connais pas.");
-
     }
 }
